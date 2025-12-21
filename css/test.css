@@ -1,0 +1,50 @@
+/* Custom Header Styling */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
+                url('../img/istockphoto-1973365581-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.custom-nav {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-primary {
+    background-color: #D4AF37; /* ഒരു ഗോൾഡൻ ഫീലിന് വേണ്ടി */
+    border-color: #D4AF37;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #b8962e;
+    border-color: #b8962e;
+}
+
+.rounded-pill {
+    transition: 0.5s;
+}
+
+.social-icons-hero a {
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.social-icons-hero a:hover {
+    color: #D4AF37 !important;
+    opacity: 1;
+}
+
+/* Image container styling */
+.hero-img-container img {
+    border-radius: 20px;
+    /* ആവശ്യമെങ്കിൽ ഷാഡോ ചേർക്കാം */
+    /* box-shadow: 0 20px 40px rgba(0,0,0,0.5); */
+}

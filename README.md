@@ -1,2 +1,0 @@
-# Shaah-web
-Personal
